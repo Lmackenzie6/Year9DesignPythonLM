@@ -15,6 +15,13 @@ height = (float)(height)#cast to int
 #Process
 #What formula is used to calculate the volume of a cylinder?
 volume = math.pi * radius * radius * height
+volume = round(volume,2)
+
 #Output
 #What is important about the output?
-print("The volume is "+ str(volume))
+print("\nHi "+name+"!")
+print("Give a cylinder with:")
+print("Radius = "+str(radius))
+print("Height = "+str(height))
+print("The volume is: "+str(volume)) 
+print("\n\t\t\tV = \u03C0\u00d7radius\u00b2\u00d7height")
