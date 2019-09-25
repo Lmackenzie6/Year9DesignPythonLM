@@ -8,7 +8,7 @@ print("Volume of a Cylinder Formula: ")
 name = input("What is your name: ")#takes users name
 height = 1
 radius = 1
-while radius != 0:
+while radius != 0 or height != 0:
 
 
 
@@ -24,9 +24,19 @@ while radius != 0:
 
 	#Output
 	#What is important about the output?
-	print("\nHi "+name+"!")
-	print("Give a cylinder with:")
-	print("Radius = "+str(radius))
-	print("Height = "+str(height))
-	print("The volume is: "+str(volume)) 
-	print("\nV = \u03C0\u00d7radius\u00b2\u00d7height\l")
+	if (radius >= 0 and height >= 0):
+
+
+	
+	
+    
+		print("\nHi "+name+"!")
+		print("Give a cylinder with:")
+		print("Radius = "+str(radius))
+		print("Height = "+str(height))
+		print("The volume is: "+str(volume)) 
+		print("\nV = \u03C0\u00d7radius\u00b2\u00d7height")
+
+	else:
+		print("Inputs are invalid")
+
