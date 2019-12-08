@@ -15,7 +15,7 @@ Student = tk.StringVar()
 ATL = tk.StringVar()
 Grade = tk.StringVar()
 
-fieldnames = ['Student', 'ATL', 'Grade'  ]
+fieldnames = ['Student', 'ATL', 'Grade']
 
 #gradereader = csv.DictReader(file)
 
@@ -53,7 +53,7 @@ canvas4 = tk.Canvas(root, width=25, height=25, bg = "#233C6A", highlightthicknes
 studentlabel5 = tk.Label(root, text="ATL",font="Helvetica", bg="#2fbc2f", fg="#233C6A")
 canvas8 = tk.Canvas(root, width=25, height=25, bg = "#233C6A", highlightthickness=0)
 label3 = tk.Label(root,text="Dropdown soon",fg="#233C6A", bg="#233C6A", font="Helvetica")
-studentlabel8 = tk.Label(root, text="Grade",font="Helvetica", bg="#2fbc2f", fg="#233C6A")
+studentlabel8 = tk.Label(root, text=" MYP Grade",font="Helvetica", bg="#2fbc2f", fg="#233C6A")
 canvas7 = tk.Canvas(root, width=25, height=25, bg = "#233C6A", highlightthickness=0)
 canvas9 = tk.Canvas(root, width=25, height=25, bg = "#3b5482", highlightthickness=1)
 canvas13 = tk.Canvas(root, width=25, height=25, bg = "#233C6A", highlightthickness=0)
